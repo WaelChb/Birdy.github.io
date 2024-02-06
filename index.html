@@ -58,9 +58,9 @@
     <nav>
         <ul>
             <li><a href="#section1">Introduction</a></li>
-            <li><a href="#section2">Installation</a></li>
-            <li><a href="#section3">Utilisation</a></li>
-            <li><a href="#section4">Références</a></li>
+            <li><a href="#section2">Description</a></li>
+            <li><a href="#section3">Projet Birdy</a></li>
+            <li><a href="#section4">Vidéo et photo</a></li>
         </ul>
     </nav>
 
@@ -72,19 +72,54 @@
         </section>
 
         <section id="section2">
-            <h2>Installation</h2>
-            <p>Dans cette section, expliquez comment installer votre projet. Vous pouvez fournir des instructions étape par étape, des dépendances requises, et des exemples d'utilisation.</p>
+            <h2>Description</h2>
+            <p>Nous avons commencé à élaborer un petit projet arduino Ce mini projet Arduino vise à contrôler un servo-moteur à l'aide d'un potentiomètre. Le servo-moteur est un dispositif qui peut tourner sur un angle précis en réponse à des signaux de commande. Le potentiomètre, quant à lui, est utilisé comme un capteur analogique pour régler la position du servo-moteur.</p>
+            <p>Matériel Requis :
+            </p>
+            <ul>Arduino Uno (ou tout autre modèle compatible)
+            </ul>
+            <ul>Servo-moteur
+            </ul>
+            <ul>Potentiomètre</ul>
+            <ul>Breadboard</ul>
         </section>
 
         <section id="section3">
-            <h2>Utilisation</h2>
-            <p>Décrivez ici comment utiliser votre projet. Cela peut inclure des exemples de code, des captures d'écran, et des scénarios d'utilisation courants.</p>
+            <h2>Projet Birdy</h2>
+            <p>Ce projet Arduino combine l'utilisation d'un capteur de qualité de l'air HM301 pour évaluer les niveaux de pollution atmosphérique avec un dispositif visuel interactif. Un oiseau imprimé en 3D est attaché à un servo-moteur, permettant de modifier son angle en réponse aux variations de la qualité de l'air détectées par le capteur.</p>
+            <p>Matériel Requis :</p> 
+            <ul>
+                ESP32
+            </ul>
+            <ul>Capteur de qualité de l'air HM301</ul>
+            <ul>Servo-moteur
+            </ul>
+            <ul>Oiseau imprimé en 3D avec fusion 360
+             </ul>
+             <ul>Breadboard</ul>
+             <ul>shield</ul>
+
+             <p>
+                Fonctionnement :
+             </p>
+        <p>Le capteur HM301 est utilisé pour mesurer divers paramètres de la qualité de l'air, tels que la concentration de particules fines (PM2.5) et la qualité de l'air en général. Les données captées par le capteur sont lues par l'ESP32 à intervalles réguliers.
+
+            En fonction des valeurs lues, l'ESP32 prend des décisions sur la position de l'oiseau imprimé en 3D. Par exemple, si les niveaux de pollution atmosphérique sont élevés, l'oiseau pourrait être positionné verticalement pour représenter un avertissement visuel. À l'inverse, lorsque la qualité de l'air est bonne, l'oiseau pourrait être incliné vers le haut pour refléter un environnement plus sain.</p>
+        
         </section>
 
         <section id="section4">
-            <h2>Références</h2>
-            <p>Listez ici toute référence supplémentaire utile, comme des liens vers la documentation externe, des ressources, ou des crédits pour les technologies utilisées.</p>
-        </section>
+            <h2>Vidéo et photo </h2>
+
+            <img src="  img/SNAP_20240202-113241.webp" alt="Description de l'image">
+            <img src="  img/SNAP_20240202-113316..webp" alt="Description de l'image">
+            <img src="  img/SNAP_20240202-130030.webp" alt="Description de l'image">
+            <img src="  img/SNAP_20240202-143210.webp" alt="Description de l'image">
+            <video controls>
+                <source src="img/SNAP_20240130-150724.mp4" type="video/mp4">
+                Votre navigateur ne supporte pas la lecture de cette vidéo.
+            </video>
+            </section>
     </main>
 
     <footer>
