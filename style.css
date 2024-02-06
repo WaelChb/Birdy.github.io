@@ -51,3 +51,9 @@ nav ul li a {
 nav ul li a:hover {
     color: #007bff; /* Couleur au survol */
 }
+.hover-depth {
+    transition: transform 0.3s ease; /* Transition pour l'effet de profondeur */
+}
+.hover-depth:hover {
+    transform: scale(1.1); /* Effet de mise à l'échelle pour simuler la profondeur */
+}
