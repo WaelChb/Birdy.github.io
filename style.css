@@ -57,3 +57,26 @@ nav ul li a:hover {
 .hover-depth:hover {
     transform: scale(1.1); /* Effet de mise à l'échelle pour simuler la profondeur */
 }
+/* Styles CSS pour les écrans de petite taille (par exemple, smartphones) */
+@media screen and (max-width: 600px) {
+    /* Ajoutez ici les styles spécifiques aux écrans de petite taille */
+    nav ul {
+        flex-direction: column;
+    }
+}
+
+/* Styles CSS pour les écrans de taille moyenne (par exemple, tablettes) */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Ajoutez ici les styles spécifiques aux écrans de taille moyenne */
+    nav ul {
+        justify-content: space-around;
+    }
+}
+
+/* Styles CSS pour les écrans de grande taille (par exemple, ordinateurs de bureau) */
+@media screen and (min-width: 1025px) {
+    /* Ajoutez ici les styles spécifiques aux écrans de grande taille */
+    nav ul {
+        justify-content: flex-end;
+    }
+}
